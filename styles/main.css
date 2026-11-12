@@ -1,8 +1,9 @@
 /* Victor Blanco
    11/11/2026
-   Final Project Step 1 - basic font and margins for Roblox Rewind. */
+   Final Project Step 2 - basic font and spacing for Roblox Rewind. */
 
 body {
-    font-family: "Times New Roman", Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 20px;
+    line-height: 1.5;
 }
