@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <!-- Victor Blanco
 	 11/11/2026
-	 Final Project Step 2 - Roblox Rewind gallery page with video and images. -->
+	 Final Project Step 3 - Roblox Rewind gallery page with video and images. -->
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Roblox Rewind | Gallery</title>
+	<link rel="icon" href="../images/favicon.ico?v=2">
 	<link rel="stylesheet" href="../styles/main.css">
 </head>
 <body>
 	<header>
+		<img src="../images/logo.png" alt="Red toy brick logo for Roblox Rewind">
 		<h1>Roblox Rewind</h1>
 		<h2>A brief history of Roblox in the 2000s</h2>
 	</header>
@@ -38,15 +40,30 @@
 		<section id="content">
 			<h1>Gallery</h1>
 			<h2>Classic sound</h2>
-			<p>[Sound coming soon]</p>
+			<audio controls preload="metadata">
+				<source src="../media/bloxy_cola.mp3" type="audio/mpeg">
+				<p>Your browser does not support HTML audio. <a href="../media/bloxy_cola.mp3">Download the sound</a> instead.</p>
+			</audio>
 			<p>The sound of drinking a Bloxy Cola, a classic Roblox gear item.</p>
 
 			<h2>Pictures</h2>
 			<div id="gallery">
-				<p>[Picture coming soon]</p>
-				<p>[Picture coming soon]</p>
-				<p>[Picture coming soon]</p>
-				<p>[Picture coming soon]</p>
+				<figure>
+					<img src="../images/baseplate.png" alt="Blocky players on a green baseplate" width="900" height="420">
+					<figcaption>The classic green baseplate</figcaption>
+				</figure>
+				<figure>
+					<img src="../images/brickbattle.png" alt="BrickBattle map with brick towers" width="700" height="420">
+					<figcaption>A BrickBattle map</figcaption>
+				</figure>
+				<figure>
+					<img src="../images/rocket_arena.png" alt="Rocket fight in a walled arena at night" width="700" height="420">
+					<figcaption>A rocket arena battle</figcaption>
+				</figure>
+				<figure>
+					<img src="../images/build_mode.png" alt="Building colored bricks in a build tool" width="700" height="420">
+					<figcaption>Building with bricks</figcaption>
+				</figure>
 			</div>
 			<p class="home-link"><a href="../index.html">&#8592; Back to Home</a></p>
 		</section>
